@@ -39,6 +39,11 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false,
-    restartOnFileChange: true
+    restartOnFileChange: true,
+    files: [
+      { pattern: './src/app/services/auth/auth.service.spec.ts', type: 'module' },
+      // { pattern: './src/app/services/user/user.service.spec.ts', type: 'module' }
+
+    ]
   });
 };
