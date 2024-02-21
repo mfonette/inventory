@@ -1,1 +1,1 @@
-# management-system
+# inventory-system
